@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1440</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Logika Fuzzy</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="title">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>150</y>
+      <width>341</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>23</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>EVALUASI  KESEHATAN ORANG</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="subtitle">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>180</y>
+      <width>371</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>m  e  n  g  g  u  n  a  k  a  n     l  o  g  i  k  a     f  u  z  z  y</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="berat_badan_line">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>250</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="berat_badan_label">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>260</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Berat Badan (kg)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tinggi_badan_label">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>370</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Tinggi Badan (cm)</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tinggi_badan_line">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>360</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="processButton">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>470</y>
+      <width>411</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>PROSES</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="index_max_method">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>460</y>
+      <width>311</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Index :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="hasil_max_method_text">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>490</y>
+      <width>311</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Hasil :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="max_method_text">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>440</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Max Method</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="diperoleh_text">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>250</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Diperoleh</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="himpunan_hasil_text">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>280</y>
+      <width>341</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1440</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
